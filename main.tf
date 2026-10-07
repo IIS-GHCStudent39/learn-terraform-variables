@@ -4,7 +4,7 @@ terraform {
     workspaces {
       name = "tf-vault-qa-ph-20261006"
     } */
-  }
+  
   required_providers {
     aws = {
       source = "hashicorp/aws"
