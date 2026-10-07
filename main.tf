@@ -125,3 +125,8 @@ module "ec2_instances" {
     environment = "development"
   }
 }
+
+module "s3_bucket" {
+  source      = "app.terraform.io/policy-as-code-training/s3-bucket-ph/aws"
+  bucket_name = "ph-lab5-2026-10-07"
+}
